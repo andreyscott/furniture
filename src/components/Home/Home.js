@@ -1,21 +1,25 @@
-// React
 import React from "react";
+
 // Components
 import Hero from "./Hero/Hero";
 import FeaturedProducts from "./FeaturedProducts/FeaturedProducts";
-import Services from "./Services/Services";
-import Contact from "./Contact/Contact";
+import Stats from "./Stats";
+import NewInStore from  './newInStore/new-in-store'
+import OurProducts from "../ourProducts";
+import Features from "../Features";
+import Newsletter from "../Newsletter";
+
 const Home = () => {
   return (
-    <main>
+    <>
       <Hero />
-      <div className="bg-gray-300 text-3xl underline text-green-500">
-        hello there 
-        </div>
+      <Stats />
+      <Features />
+     <NewInStore />
+     <OurProducts />
       <FeaturedProducts />
-      <Services />
-      <Contact />
-    </main>
+      <Newsletter />
+    </>
   );
 };
 

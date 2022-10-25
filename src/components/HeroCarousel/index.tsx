@@ -48,7 +48,7 @@ function HeroCarousel() {
         setActiveStep((prevActiveStep) => prevActiveStep - 1);
     };
 
-    const handleStepChange = (step) => {
+    const handleStepChange = (step: number) => {
         setActiveStep(step);
     };
 

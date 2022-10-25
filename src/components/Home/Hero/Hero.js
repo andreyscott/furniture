@@ -4,21 +4,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 // Auth0
 import { useAuth0 } from "@auth0/auth0-react";
-// Images
-// import heroBcg from "./../../../assets/hero-bcg.jpeg";
-// import heroBcg2 from "./../../../assets/hero-bcg-2.jpeg";
 // CSS
 import styles from "./Hero.module.css";
 // Components
 import Loading from "../../Shared/Loading/Loading";
-import HeroCarousel from "../../HeroCarousel";
+import HeroCarousel from "../../HeroCarousel/index";
+
 const Hero = () => {
   const { user, isLoading } = useAuth0();
   if (isLoading) {
     return <Loading />;
   }
   return (
-    <section className={`${styles.wrapper} section-center`}>
+    <section className={`${styles.wrapper} section-center`} >
       <article className="content">
         {user && (
           <h4>
@@ -41,15 +39,9 @@ const Hero = () => {
           shop now
         </Link>
       </article>
-      {/* <article className={styles["img-container"]}>
-        <img src={heroBcg} alt="table" className={styles["main-img"]} />
-        <img
-          src={heroBcg2}
-          alt="person working"
-          className={styles["accent-img"]}
-        />
-      </article> */}
+    
       <HeroCarousel />
+      
     </section>
   );
 };
