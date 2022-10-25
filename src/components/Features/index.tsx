@@ -13,6 +13,7 @@ const Features = () => {
               loading="lazy"
               width="100%"
               height="100%"
+              className="object-cover overflow-hidden trans"
             />
           </div>
           <div className="flex-1 flex flex-col justify-end">

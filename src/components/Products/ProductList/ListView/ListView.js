@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 // Helpers
 import { formatPrice } from "../../../Shared/Helpers/helpers";
 // Components
-import Product from "../../../Shared/Product/Product";
+// import Product from "../../../Shared/Product/Product";
 const ListView = ({ products }) => {
   return (
     <section className={styles["list-container"]}>

@@ -14,7 +14,7 @@ module.exports = {
   },
   backgroundImage: {
     hero: 'url("/src/assets/img/hero-bg.png")',
-    newsletter: 'url("/src/assets/img/lighting.png")',
+    newsletter: 'url("/src/assets/img/vin.jpg")',
   },
   variants: {},
 },

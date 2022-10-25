@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .trans{
+   @apply hover:translate-x-8 hover:translate-y-8 transition duration-1000 ease-in-out
+
+  }
+}
 /*
 =============== 
 Variables

@@ -16,8 +16,8 @@ const Home = () => {
       <Stats />
       <Features />
      <NewInStore />
+     <FeaturedProducts />
      <OurProducts />
-      <FeaturedProducts />
       <Newsletter />
     </>
   );

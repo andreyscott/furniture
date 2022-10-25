@@ -19,9 +19,10 @@ const images = [
             'https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80',
     },
     {
-        label: 'Lucas Favre',
+        label: 'Modern Frniture',
         imgPath:
-            'https://images.unsplash.com/photo-1526406915894-7bcd65f60845?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1624&q=80',
+            'https://scontent.cdnsnapwidget.com/vp/33c9ed6a69cbd5b142e104b15732a29d/5E6051BC/t51.2885-15/sh0.08/e35/s640x640/46164534_382828379128917_3620709792104121564_n.jpg',
+            // https://images.unsplash.com/photo-1526406915894-7bcd65f60845?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1624&q=80',
     },
     {
         label: 'Alisa Anton Flowers',
@@ -62,9 +63,8 @@ function HeroCarousel() {
                 sx={{
                     display: 'flex',
                     alignItems: 'center',
-                    height: 50,
+                    height: 70,
                     pl: 2,
-                    bgcolor: '#f1f5f8',
                 }}
             >
                 <Typography>{images[activeStep].label}</Typography>
@@ -81,7 +81,7 @@ function HeroCarousel() {
                             <Box
                                 component="img"
                                 sx={{
-                                    height: 320,
+                                    height: 370,
                                     display: 'block',
                                     borderStyle: 'groove',
                                     borderColor: 'lightcyan',
@@ -91,6 +91,8 @@ function HeroCarousel() {
                                 }}
                                 src={step.imgPath}
                                 alt={step.label}
+                                
+                                // className="hover:translate-x-8 hover:translate-y-  hover:scale-110 transition duration-500 ease-in-out"
                             />
                         ) : null}
                     </div>
