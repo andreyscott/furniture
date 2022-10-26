@@ -15,6 +15,10 @@ import Cart from "./components/Cart/Cart";
 import CheckOut from "./components/CheckOut/CheckOut";
 import Error from "./components/Error/Error";
 import Loading from "./components/Shared/Loading/Loading";
+
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
+
 // React Toolkit
 import { useDispatch, useSelector } from "react-redux";
 import { getAllProducts } from "./store/productsActions";
@@ -50,6 +54,7 @@ function App() {
   if (isLoading) {
     return <Loading />;
   }
+
   return (
     <div className="App">
       <NavBar />

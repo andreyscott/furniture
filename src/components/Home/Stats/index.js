@@ -21,9 +21,11 @@ const stats = [
 
 const Stats = () => {
   return (
-    <div className='my-12 mx-8'>
+    <div
+    data-aos="fade-up-right"
+     className='my-12 mx-8'>
 
-    <div className=" bg-[#286f6c] rounded-[20px] p-12">
+    <div className=" bg-green rounded-[20px] p-12">
       <div className="flex flex-wrap gap-y-8">
         {stats.map(({ value, text }, index) => (
           <div

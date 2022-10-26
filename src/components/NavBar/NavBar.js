@@ -61,6 +61,18 @@ const NavBar = () => {
         </NavLink>
       </li>
       <li>
+        <NavLink
+          style={({ isActive }) => {
+            return {
+              borderBottom: isActive ? "2px solid rgb(197, 164, 145)" : "",
+            };
+          }}
+          to="/contactus"
+        >
+          Contact Us
+        </NavLink>
+      </li>
+      <li>
         {user && (
           <NavLink
             style={({ isActive }) => {
@@ -78,7 +90,7 @@ const NavBar = () => {
   );
 
   return (
-    <nav className={styles["nav"]}>
+    <nav className={styles["nav"] }>
       <div className={styles["nav-center"]}>
         <div className={styles["nav-header"]}>
           <Link to="/">

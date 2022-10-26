@@ -20,7 +20,8 @@ const Stars = ({ stars, reviews }) => {
   });
 
   return (
-    <div className={styles["stars-container"]}>
+    <div data-aos="fade-up"
+     className={styles["stars-container"]}>
       <div className="stars">{tempStars}</div>
       <p className="reviews">({reviews} customer reviews)</p>
     </div>

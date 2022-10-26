@@ -23,7 +23,11 @@ const OurProducts = () => {
                 <div className="flex flex-col w-full items-center sm:items-start">
              {/* learn more button full width green background when active transitions */}
                 {/* <Link to="/"> */}
-                    <button className="bg-green-700 hover:bg-green-600 w-full md:w-60 lg:w-52 h-12 mx-4 md:mx-0 text-white text-base font-semibold sm:text-base md:text-lg lg:text-xl xl:text-2xl py-2 px-4 rounded-md">
+         <button 
+         data-aos="fade-up-right"
+         className="btn hover:bg-green-600  w-full md:w-60 lg:w-52 h-12 mx-4 md:mx-0 text-white text-base font-semibold sm:text-base md:text-lg lg:text-xl xl:text-2xl py-3 px-6 rounded-md"
+                    //  padding: 0.75rem 1.5rem;
+                    >
                     Learn More
                     </button>
                 {/* </Link> */}
@@ -31,7 +35,7 @@ const OurProducts = () => {
                 <img 
                 src="https://images.pexels.com/photos/220749/pexels-photo-220749.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt="Furniture"
-                className="w-[570px] h-80" />
+                className="w-[570px] trans h-80" />
                 </div>
             </div>
             </div>
@@ -41,7 +45,8 @@ const OurProducts = () => {
                 <img
                 src="https://images.pexels.com/photos/4352247/pexels-photo-4352247.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt="Furniture"
-                className="w-[600px] h-96 mt-20" />
+         data-aos="fade-up-left"
+                className="w-[600px] trans h-96 mt-20" />
                 </div>
 
          

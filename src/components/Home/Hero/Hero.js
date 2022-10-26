@@ -17,7 +17,7 @@ const Hero = () => {
   }
   return (
     <section className={`${styles.wrapper} section-center`} >
-      <article className="content">
+      <article className="content mb-8 md:mb-0">
         {user && (
           <h4>
             Welcome <span>{user?.nickname}</span> for
@@ -35,7 +35,9 @@ const Hero = () => {
           long day, when you want to add modern, contemporary flair to your
           living space, comfy sloth has a wealth of items to enliven your space.
         </p>
-        <Link to="/products" className={`btn ${styles["hero-btn"]}`}>
+        <Link to="/products"
+        data-aos="fade-up-right"
+         className={`btn  ${styles["hero-btn"]}`}>
           shop now
         </Link>
       </article>

@@ -6,7 +6,9 @@ const Features = () => {
     <section className="section">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row lg:gap-x-[100px]">
-          <div className="flex-1 order-1 lg:-order-1">
+          <div 
+          data-aos="fade-up-right"
+          className="flex-1 order-1 lg:-order-1">
             <img
               alt=""
               src={image}
