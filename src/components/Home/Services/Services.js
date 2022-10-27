@@ -21,7 +21,7 @@ const services = [
     id: 3,
     icon: <GiStabbedNote />,
     title: "history",
-    text: "Comfy Sloth is established becoming the parent company of VKF, ACF and KM Furniture—the brand's furniture manufacturing facility in North Carolina. The company reaches a billion dollars in sales.",
+    text: "Sam Standard Furniture is established becoming the parent company of VKF, ACF and KM Furniture—the brand's furniture manufacturing facility in North Carolina. The company reaches a billion dollars in sales.",
   },
 ];
 const Services = () => {

@@ -2,19 +2,19 @@ import clsx from 'clsx'
 
 const stats = [
     {
-      value: '7',
+      value: '21',
       text: 'Year Experience',
     },
     {
-      value: '2',
+      value: '3',
       text: 'Opened in the country',
     },
     {
-      value: '10k+',
+      value: '40k+',
       text: 'Furniture sold',
     },
     {
-      value: '260+',
+      value: '960+',
       text: 'Variant Furniture',
     },
   ]

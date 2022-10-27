@@ -25,6 +25,7 @@ import { getAllProducts } from "./store/productsActions";
 import { cartActions } from "./store/cartSlice";
 // Auth0
 import { useAuth0 } from "@auth0/auth0-react";
+import Heading from "./components/Header";
 // Initial Value
 let init = true;
 
@@ -57,6 +58,7 @@ function App() {
 
   return (
     <div className="App">
+      <Heading />
       <NavBar />
       <Sidebar />
       <Routes>

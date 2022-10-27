@@ -1,10 +1,10 @@
-# Comfy Sloth
+# Sam Standard Furniture
 
 Live Website Link: [https://comfy-sloth-furnitures1.netlify.app/](https://comfy-sloth-furnitures1.netlify.app/)
 
-# Some Feature Comfy Sloth
+# Some Feature Sam Standard Furniture
 
-- Comfy Sloth is a furniture base e-commerce site. Every user can order furniture after logging in.
+- Sam Standard Furniture is a furniture base e-commerce site. Every user can order furniture after logging in.
 - Integrated payment methods can be used to purchase products and payment using stripe.
 
 # Explanation of the using technologies.

@@ -27,7 +27,7 @@ const images = [
     {
         label: 'Alisa Anton Flowers',
         imgPath:
-            'https://images.unsplash.com/photo-1589244159943-460088ed5c92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2090&q=80',
+            'https://images.unsplash.com/photo-1484101403633-562f891dc89a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNvZmElMjBjaGFpcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60',
     },
     {
         label: 'Teftiba Furniture',
@@ -84,8 +84,8 @@ function HeroCarousel() {
                                     height: 370,
                                     display: 'block',
                                     borderStyle: 'groove',
-                                    borderColor: 'lightcyan',
-                                    borderWidth: 'thin',
+                                    // borderColor: 'lightcyan',
+                                    // borderWidth: 'thin',
                                     overflow: 'hidden',
                                     width: '100%',
                                 }}
@@ -120,7 +120,10 @@ function HeroCarousel() {
                     </Button>
                 }
                 backButton={
-                    <Button size="small" onClick={handleBack} disabled={activeStep === 0}>
+                    <Button size="small"
+                    // color primary-100
+                    
+                     onClick={handleBack} disabled={activeStep === 0}>
                         {theme.direction === 'rtl' ? (
                             <KeyboardArrowRight />
                         ) : (

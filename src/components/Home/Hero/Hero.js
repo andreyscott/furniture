@@ -33,7 +33,7 @@ const Hero = () => {
           walk in the door. From cozy sectionals that work well for big
           get-togethers to beds that invite you for a good night's sleep after a
           long day, when you want to add modern, contemporary flair to your
-          living space, comfy sloth has a wealth of items to enliven your space.
+          living space, Sam Standard Furniture has a wealth of items to enliven your space.
         </p>
         <Link to="/products"
         data-aos="fade-up-right"

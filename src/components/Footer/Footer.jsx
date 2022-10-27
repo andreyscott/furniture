@@ -6,7 +6,7 @@ import logo from "../../assets/img/logo.svg";
 const Footer = () => {
   return (
     <footer aria-label="Site Footer" className="bg-black">
-  <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+  <div className="mx-auto max-w-screen-xl px-4 pt-16 pb-6 sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
       <div>
        
@@ -165,7 +165,7 @@ const Footer = () => {
   </div>
   </div>
   </div>
-  <p className=" text-xs text-center text-gray-300">
+  <p className=" text-xs mt-12 text-center bg-green-500 text-gray-300">
         © 2023, Created and design by
         <a href="https://andrey-profile.web.app/" className="text-primary-200 hover:underline">  Andrew </a>    
     </p>

@@ -75,7 +75,7 @@ const Sidebar = () => {
         }
       >
         <div className={styles["sidebar-header"]}>
-          <img src={logo} className={styles.logo} alt="comfy sloth" />
+          <img src={logo} className={styles.logo} alt="Sam Standard Furniture" />
           <button
             onClick={() => dispatch(navBarActions.toggleNavbar())}
             className={styles["close-btn"]}

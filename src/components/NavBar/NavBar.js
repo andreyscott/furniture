@@ -94,7 +94,7 @@ const NavBar = () => {
       <div className={styles["nav-center"]}>
         <div className={styles["nav-header"]}>
           <Link to="/">
-            <img src={logo} alt="comfy sloth" />
+            <img src={logo} alt="Sam Standard Furniture" />
           </Link>
           <button
             onClick={() => dispatch(navBarActions.toggleNavbar())}
